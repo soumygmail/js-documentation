@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    
+}
+header{
+    border: 1px solid  grey;
+    height: 100vh;
+}
+ nav h1{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+nav ul {
+ list-style: none;
+
+}
+nav ul a li{
+    font-size: 20px;
+}
+nav ul a li{
+    border: 1px solid  grey;
+    padding: 10px; 
+}
+/* main section */
+main{
+    padding: 50px;
+    max-width:1200px;
+}
+section{
+    margin-bottom: 50px;
+}
+section article{
+    font-size: 15px;
+}
+section h2{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}
